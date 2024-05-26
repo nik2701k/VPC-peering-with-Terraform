@@ -63,7 +63,7 @@ sgs = {
 
 sg_cidr_blocks = {
   "ssh_sg" = {
-    ingress_cidr_blocks = ["223.30.148.138/32"]
+    ingress_cidr_blocks = ["12.34.56.78/32"] #Mention the IP from where ssh to ec2 should be allowed
   }
   "icmp_sg" = {
     ingress_cidr_blocks_for_vpcA = ["10.2.0.0/16"]

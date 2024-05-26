@@ -19,6 +19,6 @@ resource "aws_vpc_peering_connection" "vpc_peering" {
   peer_region = "us-west-1"
   tags = {
     Name       = var.vpcpeer_name
-    Created_by = var.owner_name
+    created_by = var.owner_name
   }
 }

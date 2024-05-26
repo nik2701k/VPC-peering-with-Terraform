@@ -23,7 +23,7 @@ resource "aws_instance" "my_ec2" {
 
   tags = {
     Name       = var.ec2_name
-    Created_by = var.owner_name
+    created_by = var.owner_name
   }
 }
 

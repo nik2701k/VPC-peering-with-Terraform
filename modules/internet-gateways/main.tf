@@ -18,6 +18,6 @@ resource "aws_internet_gateway" "i_gw" {
 
   tags = {
     Name       = var.igw_name
-    Created_by = var.owner_name
+    created_by = var.owner_name
   }
 }

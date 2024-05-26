@@ -53,6 +53,6 @@ resource "aws_security_group" "allow_ssh" {
 
   tags = {
     Name       = var.sg_name
-    Created_by = var.owner_name
+    created_by = var.owner_name
   }
 }

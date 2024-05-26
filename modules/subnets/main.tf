@@ -20,6 +20,6 @@ resource "aws_subnet" "main_subnet" {
 
   tags = {
     Name       = var.subnet_name
-    Created_by = var.owner_name
+    created_by = var.owner_name
   }
 }

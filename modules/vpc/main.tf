@@ -18,6 +18,6 @@ resource "aws_vpc" "main_vpc" {
 
   tags = {
     Name       = var.vpc_name
-    Created_by = var.owner_name
+    created_by = var.owner_name
   }
 }
